@@ -8,6 +8,7 @@ class TrackAPI extends RESTDataSource {
   }
 
   getTracksForHome() {
+    console.log('nice');
     return this.get('tracks');
   }
 
